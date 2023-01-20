@@ -57,7 +57,7 @@ import heapq
 # save sum in list
 # get max from list
 
-def get_sum(list_of_sums):
+def get_sum(list_of_sums: list) -> int:
     print("getting max")
     _max = max(list_of_sums)
     return _max
